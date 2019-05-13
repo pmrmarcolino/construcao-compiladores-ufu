@@ -1,0 +1,15 @@
+- : Lexico.tokens list =
+[Lexico.FUNC; Lexico.ID "nano12"; Lexico.PTVIRG; Lexico.VARIAVEL;
+ Lexico.ID "n"; Lexico.VIRG; Lexico.ID "m"; Lexico.VIRG; Lexico.ID "x";
+ Lexico.EQUIVL; Lexico.INT; Lexico.PTVIRG; Lexico.AESCOP; Lexico.ID "n";
+ Lexico.ATRIB; Lexico.LITINT 1; Lexico.PTVIRG; Lexico.ID "m"; Lexico.ATRIB;
+ Lexico.LITINT 2; Lexico.PTVIRG; Lexico.ID "x"; Lexico.ATRIB;
+ Lexico.LITINT 5; Lexico.PTVIRG; Lexico.WHILE; Lexico.APAR; Lexico.ID "x";
+ Lexico.MAIOR; Lexico.ID "n"; Lexico.FPAR; Lexico.DO; Lexico.AESCOP;
+ Lexico.IF; Lexico.APAR; Lexico.ID "n"; Lexico.IGUAL; Lexico.ID "m";
+ Lexico.FPAR; Lexico.THEN; Lexico.AESCOP; Lexico.PRINT; Lexico.APAR;
+ Lexico.ID "n"; Lexico.FPAR; Lexico.PTVIRG; Lexico.FESCOP; Lexico.ELSE;
+ Lexico.AESCOP; Lexico.PRINT; Lexico.APAR; Lexico.LITINT 0; Lexico.FPAR;
+ Lexico.PTVIRG; Lexico.ID "x"; Lexico.ATRIB; Lexico.ID "x"; Lexico.SUB;
+ Lexico.LITINT 1; Lexico.PTVIRG; Lexico.FESCOP; Lexico.FESCOP; Lexico.FESCOP;
+ Lexico.EOF]

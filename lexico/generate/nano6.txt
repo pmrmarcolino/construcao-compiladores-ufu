@@ -1,0 +1,6 @@
+- : Lexico.tokens list =
+[Lexico.FUNC; Lexico.ID "nano06"; Lexico.PTVIRG; Lexico.VARIAVEL;
+ Lexico.ID "n"; Lexico.EQUIVL; Lexico.INT; Lexico.PTVIRG; Lexico.AESCOP;
+ Lexico.ID "n"; Lexico.ATRIB; Lexico.LITINT 1; Lexico.OPERARIT;
+ Lexico.LITINT 2; Lexico.PTVIRG; Lexico.ID "write"; Lexico.APAR;
+ Lexico.ID "n"; Lexico.FPAR; Lexico.PTVIRG; Lexico.FESCOP; Lexico.EOF]
